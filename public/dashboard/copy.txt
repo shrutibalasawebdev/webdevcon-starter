@@ -1,0 +1,60 @@
+Dashboard Layout
+
+<span class="material-symbols-outlined">search</span>
+<span class="material-symbols-outlined">notifications</span>
+Profile Image:
+https://images.pexels.com/photos/1239288/pexels-photo-1239288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+
+
+<span class="material-symbols-outlined">library_books</span>
+<span class="material-symbols-outlined">article</span>
+<span class="material-symbols-outlined">person</span>
+<span class="material-symbols-outlined">settings</span>
+<span class="material-symbols-outlined">dashboard</span>
+
+
+Overview
+Learn more about your new dashboard and get started
+
+
+Your publication stats
+<span class="material-symbols-outlined"> arrow_right_alt </span>
+
+
+Quick links
+
+<span class="material-symbols-outlined">edit</span>
+Write an article
+Share your thoughts with the community
+
+<span class="material-symbols-outlined">library_books</span>
+Create a series
+Categorize your articles in one page
+
+<span class="material-symbols-outlined">power</span>
+Add integrations
+Get advanced insights on your post
+
+<span class="material-symbols-outlined">description</span>
+Create a page
+Create and manage static pages for your blog
+
+<span class="material-symbols-outlined">tune</span>
+Customize appearance
+Customize your blog's appearance
+
+
+Publication info
+<span class="material-symbols-outlined">home</span>
+
+
+Articles
+
+How do you keep the footer always at the bottom - Flexbox or Grid?
+3 min read &middot; Oct 27, 2023
+
+Text underline animation explained
+3 min read &middot; Jul 28, 2023
+
+Did you know about the `display:contents` CSS rule?
+2 min read &middot; Jul 21,2023
