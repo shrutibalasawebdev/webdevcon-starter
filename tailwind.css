@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .grid-custom {
+        grid-template-columns: repeat(2, auto);
+    }
+}

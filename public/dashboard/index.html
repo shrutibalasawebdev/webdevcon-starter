@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dashboard Layout</title>
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0"
+        />
+    </head>
+    <body class="antialiased text-slate-700 flex flex-col min-h-screen">
+        <!-- Header begins -->
+        <header class="fixed w-full h-16 px-8 bg-white border-b border-b-slate-200 flex justify-between items-center">
+            <h1 class="text-xl font-semibold text-indigo-500">Brand Logo</h1>
+            <nav class="flex items-center gap-4">
+                <button
+                    class="size-9 flex rounded-full hover:bg-slate-100 focus:ring-2 focus:ring-offset-1 focus:ring-indigo-300"
+                >
+                    <span class="material-symbols-outlined text-slate-500 m-auto">search</span>
+                </button>
+                <button
+                    class="size-9 flex rounded-full hover:bg-slate-100 focus:ring-2 focus:ring-offset-1 focus:ring-indigo-300"
+                >
+                    <span class="material-symbols-outlined text-slate-500 m-auto">notifications</span>
+                </button>
+                <button class="size-9 rounded-full focus:ring-2 focus:ring-offset-1 focus:ring-indigo-300">
+                    <img
+                        class="size-9 object-cover rounded-full"
+                        src="https://images.pexels.com/photos/1239288/pexels-photo-1239288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt=""
+                    />
+                </button>
+            </nav>
+        </header>
+        <!-- Header ends -->
+        <section class="pt-16 flex flex-1 max-h-screen">
+            <!-- Sidebar begins -->
+            <aside class="hidden lg:block basis-72 shrink-0 border-r border-r-slate-200 overflow-scroll">
+                <div class="p-4 text-sm top-0">
+                    <ul class="mt-2">
+                        <li>
+                            <a href="#" class="flex gap-2 items-center px-3 py-2 hover:bg-slate-100 rounded">
+                                <span class="material-symbols-outlined text-gray-500">dashboard</span>
+                                <span class="font-medium">Dashboard</span>
+                            </a>
+                        </li>
+                        <hr class="my-4" />
+                        <li>
+                            <a href="#" class="flex gap-2 items-center px-3 py-2 hover:bg-slate-100 rounded">
+                                <span class="material-symbols-outlined text-gray-500">library_books</span>
+                                <span class="font-medium">Series</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex gap-2 items-center px-3 py-2 hover:bg-slate-100 rounded">
+                                <span class="material-symbols-outlined text-gray-500">article</span>
+                                <span class="font-medium">Articles</span>
+                            </a>
+                        </li>
+                        <hr class="my-4" />
+                        <li>
+                            <a href="#" class="flex gap-2 items-center px-3 py-2 hover:bg-slate-100 rounded">
+                                <span class="material-symbols-outlined text-gray-500">person</span>
+                                <span class="font-medium">Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex gap-2 items-center px-3 py-2 hover:bg-slate-100 rounded">
+                                <span class="material-symbols-outlined text-gray-500">settings</span>
+                                <span class="font-medium">Account Settings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex gap-2 items-center px-3 py-2 hover:bg-slate-100 rounded">
+                                <span class="material-symbols-outlined text-gray-500">dashboard</span>
+                                <span class="font-medium">Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <!-- Sidebar ends -->
+            <!-- Main section begins-->
+            <main class="flex-1 overflow-scroll p-8">
+                <div class="max-w-5xl mx-auto">
+                    <h1 class="font-bold text-3xl">Overview</h1>
+                    <p class="mt-2">Learn more about your new dashboard and get started</p>
+                    <hr class="my-8" />
+                    <!-- Publication stats section begins -->
+                    <div>
+                        <div class="flex justify-between">
+                            <h2 class="font-semibold text-lg">Your publication stats</h2>
+                            <a class="text-indigo-500 font-semibold flex items-center group gap-1" href="#">
+                                <span class="group-hover:underline">Go to analytics</span>
+                                <span class="material-symbols-outlined"> arrow_right_alt </span></a
+                            >
+                        </div>
+                        <div class="mt-4 grid gap-6 sm:grid-cols-3">
+                            <div class="border border-slate-200 rounded-lg p-5">
+                                <p class="font-bold text-xl">205</p>
+                                <p class="mt-1 text-sm">7-day page views</p>
+                            </div>
+                            <div class="border border-slate-200 rounded-lg p-5">
+                                <p class="font-bold text-xl">18,903</p>
+                                <p class="mt-1 text-sm">Total page views</p>
+                            </div>
+                            <div class="border border-slate-200 rounded-lg p-5">
+                                <p class="font-bold text-xl">121</p>
+                                <p class="mt-1 text-sm">Newsletter subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Publication stats section ends -->
+                    <!-- Quick Links section begins -->
+                    <div class="mt-10">
+                        <h2 class="font-semibold text-lg">Quick links</h2>
+                        <div class="mt-4 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+                            <a
+                                href="#"
+                                class="border border-slate-200 rounded-lg p-5 hover:border-violet-400 flex gap-3"
+                            >
+                                <span class="flex shrink-0 size-9 bg-violet-50 rounded-full">
+                                    <span class="material-symbols-outlined m-auto text-violet-500"> edit </span>
+                                </span>
+                                <div>
+                                    <p class="font-semibold text-lg">Write an article</p>
+                                    <p class="mt-1 text-sm text-slate-500">Share your thoughts with the community</p>
+                                </div>
+                            </a>
+                            <a
+                                href="#"
+                                class="border border-slate-200 rounded-lg p-5 hover:border-orange-400 flex gap-3"
+                            >
+                                <span class="flex shrink-0 size-9 bg-orange-50 rounded-full">
+                                    <span class="material-symbols-outlined m-auto text-orange-500">library_books</span>
+                                </span>
+                                <div>
+                                    <p class="font-semibold text-lg">Create a series</p>
+                                    <p class="mt-1 text-sm text-slate-500">Categorize your articles in one page</p>
+                                </div>
+                            </a>
+                            <a href="#" class="border border-slate-200 rounded-lg p-5 hover:border-teal-400 flex gap-3">
+                                <span class="flex shrink-0 size-9 bg-teal-50 rounded-full">
+                                    <span class="material-symbols-outlined m-auto text-teal-500">power</span>
+                                </span>
+                                <div>
+                                    <p class="font-semibold text-lg">Add integrations</p>
+                                    <p class="mt-1 text-sm text-slate-500">Get advanced insights on your post</p>
+                                </div>
+                            </a>
+                            <a href="#" class="border border-slate-200 rounded-lg p-5 hover:border-pink-400 flex gap-3">
+                                <span class="flex shrink-0 size-9 bg-pink-50 rounded-full">
+                                    <span class="material-symbols-outlined m-auto text-pink-500">description</span>
+                                </span>
+                                <div>
+                                    <p class="font-semibold text-lg">Create a page</p>
+                                    <p class="mt-1 text-sm text-slate-500">
+                                        Create and manage static pages for your blog
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="#" class="border border-slate-200 rounded-lg p-5 hover:border-blue-400 flex gap-3">
+                                <span class="flex shrink-0 size-9 bg-blue-50 rounded-full">
+                                    <span class="material-symbols-outlined m-auto text-blue-500">tune</span>
+                                </span>
+                                <div>
+                                    <p class="font-semibold text-lg">Customize appearance</p>
+                                    <p class="mt-1 text-sm text-slate-500">Customize your blog's appearance</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Quick Links section ends -->
+                    <div class="mt-10">
+                        <h2 class="font-semibold text-lg">Publication info</h2>
+                        <div class="mt-4 grid sm:grid-cols-[16rem_1fr] gap-6">
+                            <div class="flex flex-col gap-5 border border-slate-200 rounded-lg p-5">
+                                <span class="flex shrink-0 size-9 bg-indigo-50 rounded-full">
+                                    <span class="material-symbols-outlined m-auto text-indigo-500">home</span>
+                                </span>
+                                <p class="font-bold text-lg">Shruti Balasa</p>
+                                <div class="bg-slate-50 rounded-lg p-5 grid grid-cols-2">
+                                    <div>
+                                        <p class="font-bold text-2xl">7</p>
+                                        <p class="mt-1 text-sm">Articles</p>
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-2xl">768</p>
+                                        <p class="mt-1 text-sm">Followers</p>
+                                    </div>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="px-6 py-2 rounded-full border border-slate-300 text-center text-sm hover:bg-slate-50 mt-auto"
+                                    >Edit blog info</a
+                                >
+                            </div>
+                            <div class="border border-slate-200 rounded-lg p-5">
+                                <div class="flex px-2 pb-2 border-b border-slate-200">
+                                    <div class="flex-1 font-semibold">Articles</div>
+                                    <div class="basis-12 font-semibold">Views</div>
+                                </div>
+                                <div class="py-2">
+                                    <div class="flex gap-6 p-2 hover:bg-slate-100 items-center">
+                                        <div class="flex-1">
+                                            <a href="#" class="font-semibold line-clamp-1">
+                                                How do you keep the footer always at the bottom - Flexbox or Grid?
+                                            </a>
+                                            <p class="text-sm text-slate-500">3 min read &middot; Oct 27, 2023</p>
+                                        </div>
+                                        <p class="basis-12 font-semibold">339</p>
+                                    </div>
+                                    <div class="flex gap-6 p-2 hover:bg-slate-100 items-center">
+                                        <div class="flex-1">
+                                            <a href="#" class="font-semibold line-clamp-1">
+                                                Text underline animation explained
+                                            </a>
+                                            <p class="text-sm text-slate-500">3 min read &middot; Jul 28, 2023</p>
+                                        </div>
+                                        <p class="basis-12 font-semibold">317</p>
+                                    </div>
+                                    <div class="flex gap-6 p-2 hover:bg-slate-100 items-center">
+                                        <div class="flex-1">
+                                            <a href="#" class="font-semibold line-clamp-1">
+                                                Did you know about the `display:contents` CSS rule?
+                                            </a>
+                                            <p class="text-sm text-slate-500">2 min read &middot; Jul 21,2023</p>
+                                        </div>
+                                        <p class="basis-12 font-semibold">144</p>
+                                    </div>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="block w-full px-6 py-2 rounded-full border border-slate-300 text-center text-sm hover:bg-slate-50"
+                                >
+                                    View all
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- Main section ends -->
+        </section>
+    </body>
+</html>
